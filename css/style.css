@@ -142,9 +142,11 @@ td {
 .secondary-content {
 	font-family: 'Architects Daughter', cursive;
 	font-size: 1.3em;
-	text-align: justify;
+	text-align: center;  
 	margin-left: 20px;	
 }
+
+
 
 .nerium-content {
 	font-family: 'Architects Daughter', cursive;
