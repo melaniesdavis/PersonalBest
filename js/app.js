@@ -1,5 +1,4 @@
-//Problem: It look gross in smaller browser widths and small devices
-//Solution: To hide the text links and swap them out with a more appropriate navigation
+// Navigation Links
 
 //Create a select and append to #menu
 var $select = $("<select></select>");
@@ -28,6 +27,11 @@ $select.change(function(){
   //Go to select's location
   window.location = $select.val();
 });
+
+
+//  Responsive Table
+
+$('#classSchedule').stackcolumns({myClass:'stacktable small-only' });
 
 
 

@@ -8,8 +8,7 @@
               linear-gradient(0deg, #D3D3D3, transparent),
               #D3D3D3 url('../img/PersonalBest.jpg') no-repeat center;
   background-size: cover;
-  
-}
+ }
 
 #title {
 	text-align: center;
@@ -115,7 +114,7 @@ caption {
 
 thead th {
   background: #6E7980;  /* darker gray */
-  color: #ffffff  /* white */
+/*  color: #ffffff  /* white */
 }
 
 tr {
@@ -229,4 +228,12 @@ Also hides select and button on larger width and show's links
     display:none;
   }
 }
+
+@media (max-width: 600px) {
+	.map-content iframe {
+		display: none;
+	}
+}
+
+
 
