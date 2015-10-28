@@ -79,19 +79,19 @@ h1 {
 	width: 20%;
 	height: 20%;
 	float: left;
-	margin-left: 8%;
+	margin-left: 5%;
 	margin-top: 5px;
-	
+	padding-right: 20px;
 }
 
 .bio {
 	font-family: 'Architects Daughter', cursive;
-	font-size: 1.3em;
-	width: 60%;
-	float: right;
+	font-size: 1.0em;
+/*	width: 60%;
+	float: right;  */
 	text-align: justify;
 	margin-right: 5%;
-	margin-bottom: 10%;
+	margin-left: 5%;
 }
 
 table {
@@ -232,6 +232,13 @@ Also hides select and button on larger width and show's links
 @media (max-width: 600px) {
 	.map-content iframe {
 		display: none;
+	}
+	.alissa {
+		display: none;
+	}
+	.bio {
+		float: none;
+		margin: auto; 
 	}
 }
 
