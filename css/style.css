@@ -85,10 +85,38 @@ h1 {
 }
 
 .bio {
+	display: block;
 	font-family: 'Architects Daughter', cursive;
 	font-size: 1.0em;
 /*	width: 60%;
 	float: right;  */
+	text-align: justify;
+	margin-right: 5%;
+	margin-left: 5%;
+	border-bottom: 2px solid;
+	border-bottom-color: #CC0000;  /* red */
+}
+
+.katie_info {
+	overflow: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.katie {
+	width: 20%;
+	height: 20%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 5px;
+	padding-right: 20px;
+}
+
+.k_bio {
+	display: block;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.0em;
+	
 	text-align: justify;
 	margin-right: 5%;
 	margin-left: 5%;
