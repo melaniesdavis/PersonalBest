@@ -29,9 +29,9 @@ $select.change(function(){
 });
 
 
-//  Responsive Table
 
-$('#classSchedule').stackcolumns({myClass:'stacktable small-only' });
+
+
 
 
 
