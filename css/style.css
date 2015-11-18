@@ -157,17 +157,15 @@ caption {
 }
 
 thead th {
-  background: #6E7980;  /* darker gray */
-/*  color: #ffffff  /* white */
+  background: #f2f2f2;   /* light white  */
 }
 
 tr {
-  background: #A1ACB3;   /* gray */
-  border-bottom: 1px solid #FFF;  /* white */
+  background: #E5E4D7;  /*  light gray  */
 }
 
 tr:nth-child(even) {
-  background: #8a97a0;  /* blue gray */
+  background: #f2f2f2;   /* light white  */
 }
 
 th, td {
@@ -178,18 +176,25 @@ th, td {
 
 td {
 	text-align: center;
-	color: #f2f2f2  /*  light white  */
+	color:  #b30000;
+	/*  #333333 ;  */
+	/*  #f2f2f2    light white  */
 }
+
 
 
 .secondary-content {
 	font-family: 'Architects Daughter', cursive;
 	font-size: 1.3em;
-	text-align: center;  
+	text-align: center; 
 	margin-left: 20px;	
 	padding-bottom: 40px;
 }
 
+.secondary-content  div {
+	display: inline-block;
+	width: 400px;
+}
 
 
 .nerium-content {
@@ -267,6 +272,9 @@ Also hides select and button on larger width and show's links
   #menu ul {
     display:none;
   }
+  h1 {
+	font-size: 4.0rem;
+  }
 }
 
 @media (min-width: 568px) {
@@ -275,7 +283,7 @@ Also hides select and button on larger width and show's links
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 568px) {
 	.map-content iframe {
 		display: none;
 	}
