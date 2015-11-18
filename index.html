@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>Personal Best Fitness & Moore</title>
+	<link rel="stylesheet" href="css/reveal.css"type="text/css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
@@ -9,6 +10,11 @@
   </head>
   <body> 
     <header id="top" class="main-header">
+	
+		<div id="logo">
+			<img class="logo" src="img/personalbestlogoforpost.png" alt="personal best logo" >
+		</div>
+	
       <div id="menu">
 			<ul>
 				<li class="selected"><a href="index.html">Home</a></li>
@@ -19,23 +25,77 @@
 				<li><a href="contacts.html">Contacts</a></li>
 			</ul>
 		</div>
-<!--		<h2>Home</h2>  -->
  
 		<div id="title">
 			<span class="title">Empowering Individuals to become their Personal Best!</span>
 		</div>
       <h1>Personal Best Fitness & Moore</h1>
       
-		<div id="logo">
-			<img class="logo" src="img/personalbestlogoforpost.png" alt="personal best logo">
+		<div class="secondary-content"> 
+			<div id="spin">
+				<h3>Spin</h3>
+				<p>
+					Want to burn between 600-750 kcal in 60 minutes? 
+				</p>	
+			<a href="#" data-reveal-id="spin_details">Details...</a>
+			
+			<div id="spin_details" class="reveal-modal">
+				<h2>Spin</h2>
+									
+				<p>
+					Get your heart pumping with an hour-long, instructor-led ride to some awesome music!  Guaranteed to maximize your calorie burn, with intervals, hill-climbs, endurance, and recovery. 
+				</p>	
+			<a class="close-reveal-modal">&#215;</a>
+			
+			</div>
+			
 		</div>
-	  
+			
+			<div id="personal">
+				<h3>Personal Training</h3>
+				<p>
+					Want to achieve higher strength and higher workout intensities?
+				</p>
+				<a href="#" data-reveal-id="personal_details">Details...</a>
+				
+				<div id="personal_details" class="reveal-modal">
+				
+					<h2>Personal Training</h2>
+									
+					<p>
+						A workout regimen designed for your personal best. <br/> </br>Meet with a trainer one-on-one for an hour of individualized motivation, goal-setting, feedback, and accountability. </br> </br> These can also include education in many other aspects of wellness besides exercise, including general health and nutrition guidelines.</br> </br>Upon request, a trainer can also measure your strengths and weaknesses with fitness assessments at the beginning of your journey, or at any time along the way, to demonstrate your progress. </br>
+					</p>	
+					
+					<a class="close-reveal-modal">&#215;</a>
+				</div>
+			</div>
+			
+			<div id="group">
+				<h3>Group Training</h3>
+				<p>
+					Want to workout in a group, but get the results of personal training? 
+				</p>
+				<a href="#" data-reveal-id="group_details">Details...</a>
+				
+				<div id="group_details" class="reveal-modal">
+					<h2>Group Training</h2>
+						
+			
+					<p>
+						A class that meets two- to three-times per week with your peers for an hour.  Each workout is designed to help you become your personal best! 
+					</p>	
+				
+					<a class="close-reveal-modal">&#215;</a>
+				</div>
+			</div>
+					
+	  </div>
     </header>
     
 		
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
-
+	<script type="text/javascript" src="js/jquery.reveal.js"></script>
     
 	<footer class="main-footer">
 		<p>For more information, contact<a href="mailto:alissa.personalbestfitness@gmail.com"> Alissa Moore</a>.</p>
