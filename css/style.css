@@ -116,12 +116,40 @@ h1 {
 	display: block;
 	font-family: 'Nunito';
 	font-size: 1.2em;
-/*	width: 60%;
-	float: right;  */
 	text-align: justify;
 	margin-right: 5%;
 	margin-left: 5%;
 
+}
+
+.sam_info {
+	overflow: auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid;
+	border-bottom-color: #CC0000;  /* red */
+}
+
+.sam {
+	width: 20%;
+	height: 20%;
+	max-height: 283.66px;
+	max-width: 227.6px;
+	float: left;
+	margin-left: 5%;
+	margin-top: 5px;
+	padding-right: 20px;
+	margin-bottom: 40px;
+}
+
+.s_bio {
+	display: block;
+	font-family: 'Nunito';
+	font-size: 1.2em;
+	text-align: justify;
+	margin-right: 5%;
+	margin-left: 5%;
+	padding-bottom: 40px;
 }
 
 .katie_info {
